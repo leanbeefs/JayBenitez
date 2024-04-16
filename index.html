@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+    <title>Web Design Mastery | Responsive Portfolio</title>
+  </head>
+  <body class="font-poppins bg-gray-500">
+    <nav class="bg-white w-full fixed top-0 left-0 z-50">
+      <div class="max-w-7xl mx-auto px-4 py-6 flex items-center justify-between">
+        <div class="logo text-lg font-semibold">
+          <a href="#">Jay</a>
+        </div>
+        <label for="check" class="checkbox">
+          <i class="ri-menu-line text-primary-color text-2xl cursor-pointer"></i>
+        </label>
+        <input type="checkbox" name="check" id="check" class="hidden" />
+        <ul class="flex items-center gap-4">
+          <li><a href="#" class="text-text-dark hover:border-secondary-color hover:text-secondary-color border-b-2 border-transparent py-1 px-2 transition">Home</a></li>
+          <li><a href="https://linktr.ee/xylosma" target="_blank" class="text-text-dark hover:border-secondary-color hover:text-secondary-color border-b-2 border-transparent py-1 px-2 transition">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <section class="bg-extra-light">
+      <div class="max-w-7xl mx-auto px-4 py-16 grid grid-cols-2 gap-16 ">
+        <div class="content">
+          <p class="subtitle text-text-light font-semibold mb-2 mt-32">HELLO</p>
+          <h1 class="title text-2xl md:text-4xl font-normal text-text-dark mb-4">
+            I'm <span class="font-semibold">Jay Derrick<br />a</span> Network and Security Student
+          </h1>
+          <p class="description leading-relaxed text-text-light mb-8">
+            Welcome to my personal portfolio! I'm Jay, a student studying in the University of the Cordilleras. I am currently taking BSIT Major in Network and Security.
+          </p>
+          <div class="action__btns">
+            <a href="https://xylosma1.github.io/CSS-Activity/" target="_blank">
+              <button class="project text-primary-color border-2 border-primary-color px-8 py-4 font-semibold hover:bg-primary-color-dark hover:text-black transition rounded-2xl">CSS Activity</button>
+            </a>
+          </div>
+        </div>
+        <div class="image flex items-center justify-center mt-28">
+          <img src="https://github.com/Xylosma1/Personal-Portfolio/blob/2643ceed28fca434010c83dbe13019c30186548f/Me.jpg?raw=true" alt="profile" class="w-80 md:w-auto rounded-full" />
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
